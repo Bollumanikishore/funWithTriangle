@@ -1,0 +1,52 @@
+*{
+    /* margin:0rem; */
+}
+.header{
+    background-color: #064e3b;
+    color:white;
+    border-radius:0.5rem;
+}
+.header h2{
+    margin-left: 1rem;
+    text-align: left;
+}
+.header ul{
+    list-style: none;
+    /* text-align: right; */
+    text-align:end;
+}
+.header li{
+    display: inline;
+    margin-right: 1rem;
+}
+.body{
+    text-align: center;
+}
+.body button{
+    margin-top: 1.5rem;
+    padding : 0.5rem 1rem 0.5rem 1rem;
+}
+.footer li{
+    display: inline;
+    margin-right: 1rem;
+}
+.footer ul{
+    list-style: none;
+    /* text-align: right; */
+}
+.footer{
+    background-color:#064e3b;
+    color:white;
+    margin-top: 1in;
+}
+#Angle1,#Angle2,#Angle3{
+    height:2rem;
+    text-align:center;
+}
+.body h4{
+    margin-top:2rem;
+    margin-bottom:0.5rem;
+}
+.body h2{
+    margin-top:2.5rem;
+}
