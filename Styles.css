@@ -1,6 +1,7 @@
 *{
     /* margin:0;
     padding:0; */
+    /* margin: 0rem; */
 }
 .header{
     background-color: #064e3b;
@@ -11,22 +12,32 @@
 .header h2{
     margin-left: 1rem;
     text-align: left;
+    padding-top:0.2rem;
 }
 .header ul{
     list-style: none;
     /* text-align: right; */
     text-align:end;
+    padding-bottom: 0.5rem;
 }
 .header li{
     display: inline;
     margin-right: 1rem;
+    /* padding-bottom: 1rem; */
 }
-.body{
+.main{
     text-align: center;
 }
-.body button{
+.main button{
     margin-top: 1.5rem;
     padding : 0.5rem 1rem 0.5rem 1rem;
+}
+.footer{
+    text-align: center;
+    border-radius: 1rem;
+}
+.footer p{
+    padding-top: 0.5rem;
 }
 .footer li{
     display: inline;
@@ -34,22 +45,23 @@
 }
 .footer ul{
     list-style: none;
+    padding-bottom: 0.5rem;
     /* text-align: right; */
 }
 .footer{
     background-color:#064e3b;
     color:white;
-    margin-top: 1in;
-}
+    margin-top: 0.5in;
+} 
 #Angle1,#Angle2,#Angle3{
     height:2rem;
     text-align:center;
 }
-.body h4{
+.main h4{
     margin-top:2rem;
     margin-bottom:0.5rem;
 }
-.body h2{
+.main h2{
     margin-top:2.5rem;
 }
 #output{
