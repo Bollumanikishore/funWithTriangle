@@ -1,16 +1,29 @@
-var mani = document.querySelector("#mani");
-var kishore = document.querySelector("#kishore");
-var manikishore = document.querySelector("#manikishore");
-var button = document.querySelector("#submit");
-function funEventHandler()
+const sample = document.querySelector(".form");
+const submit = document.querySelector("#submit");
+var op = document.querySelector("#op");
+const myArr = ["one right angle","12, 16, 20","Right angled","90°","no"];
+function myFun(i)
 {
-    var m = mani.value;
-    if(m === 1)
+    for(let j of myArr.values())
     {
-        console.log("correct!");
-    }
-    else{
-        console.log("Not correct!");
-    }
+        if(i === j)
+        {
+            return true;
+            // console.log(j);
+        }
 }
-button.addEventListener("click",funEventHandler);
+}
+function eventCall(){
+    let count = 0;
+    // let search = 0;
+    const formdata = new FormData(sample);
+    for(let i of formdata.values()){
+        if(myFun(i))
+        {
+            count = count +1;
+        }
+    }
+    console.log(count);
+    op.innerHTML = "Your score is "+count;
+}
+submit.addEventListener("click",eventCall);
