@@ -12,6 +12,6 @@ function ClickEventHandler()
     var sol1 = Math.sqrt(sol*(sol-input1)*(sol-input2)*(sol-input3));
 
     // console.log(add); 
-    output.innerText = "Hypotenuse is " + sol1;
+    output.innerText = "Area of a triangle using heron's formula is "+sol1+ " units";
 }
 button.addEventListener("click", ClickEventHandler);
