@@ -2,6 +2,7 @@ const inputs = document.querySelectorAll(".values");
 const button = document.querySelector("#Button");
 const output = document.querySelector("#output");
 function ClickEventHandler()
+function ClickEventHandler()
 {
     var input1 = Number(inputs[0].value);
     var input2 = Number(inputs[1].value);
