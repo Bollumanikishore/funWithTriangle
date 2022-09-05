@@ -2,7 +2,7 @@
     font-family: sans-serif;
 }
 .header{
-    background-color: #064e3b;
+    background-color: black;
     color:white;
     border-radius:1rem;
     /* margin-top:0rem; */
@@ -65,7 +65,7 @@
     
 }
 .footer{
-    background-color:#064e3b;
+    background-color:black;
     color : white;
     margin-top: 0.5in;
 }

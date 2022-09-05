@@ -6,7 +6,7 @@
     
 }
 .header{
-    background-color: #064e3b;
+    background-color: black;
     color:white;
     border-radius:1rem;
     /* margin-top:0rem; */
@@ -48,6 +48,31 @@
 .footer li{
     display: inline;
     margin-right: 1rem;
+    text-decoration: none;
+
+}
+.footer ul{
+    list-style: none;
+    padding-bottom: 0.5rem;
+    
+    /* text-align: right; */
+    
+}
+.footer{
+    background-color:black;
+    color : white;
+    margin-top: 0.5in;
+}
+/* .footer{
+    text-align: center;
+    border-radius: 1rem;
+}
+.footer p{
+    padding-top: 0.5rem;
+}
+.footer li{
+    display: inline;
+    margin-right: 1rem;
 
 }
 .footer ul{
@@ -55,12 +80,12 @@
     padding-bottom: 0.5rem;
     /* text-align: right; */
     
-}
+/* } */
 .footer{
-    background-color:#064e3b;
+    background-color:black;
     color:white;
     margin-top: 0.5in;
-} 
+}  */
 #Angle1,#Angle2,#Angle3{
     height:1.5rem;
     text-align:center;
